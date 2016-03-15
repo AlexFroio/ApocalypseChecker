@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="#000000"
+    tools:context="com.example.ahernan.apocalypsechecker.MainActivity">
+
+    <TextView
+        android:id="@+id/main_txt"
+        android:text="Apocalypse Checker"
+        android:textStyle=""
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:textSize="60dp"
+        android:layout_marginTop="128dp"
+        android:layout_width="match_parent"
+        android:layout_height="256dp" />
+
+    <Button
+        android:id="@+id/angry_btn"
+
+        android:text="Has it ended?"
+        android:textColor="#FFFCFC"
+        android:textSize="30dp"
+
+        android:layout_marginTop="400dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:allowUndo="false" />
+
+</android.support.design.widget.CoordinatorLayout>
